@@ -1,17 +1,15 @@
-Welcome to Lumache's documentation!
+Welcome to CROCO-ABL1d tutorial
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+The purpose of this tutorial is to present the different steps to set up an idealized simulation with the ABL1d (Kilpatrick)
+and a real case coupled ABL1d - CROCO (BENGUELA_LR).
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
 .. note::
 
-   This project is under active development.
+   This tutorial is under development.
 
 Contents
 --------
