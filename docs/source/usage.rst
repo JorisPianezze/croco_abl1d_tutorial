@@ -14,3 +14,5 @@ To install CROCO, first install it from gitlab's INRIA :
 
 Compilation
 -----------
+
+To compile CROCO ...
