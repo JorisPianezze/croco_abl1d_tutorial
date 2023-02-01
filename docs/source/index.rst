@@ -14,5 +14,4 @@ Contents
 .. toctree::
    :maxdepth: 3
 
-   installation
-   compilation
+   usage
