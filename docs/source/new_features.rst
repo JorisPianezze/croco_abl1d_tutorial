@@ -1,7 +1,7 @@
 New features
 ============
 
-.. _installation:
+.. _ref_get_code
 
 Get the code
 ------------
@@ -21,7 +21,7 @@ All ABL1d developpments are made under the CPP key ABL1D.
 croco.in
 --------
 
-Additionnal parameters have been include in croco.in file :
+Additionnal parameters have been include in :file:`croco.in` file :
 
 * to define the ABL1d output :
 

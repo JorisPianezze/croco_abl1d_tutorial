@@ -12,6 +12,7 @@ Contents
 --------
 
 .. toctree::
+   :numbered:
 
    new_features
    cases_kilpatrick
