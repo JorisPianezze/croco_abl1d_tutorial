@@ -1,5 +1,5 @@
-Usage
-=====
+Run 2d idealized SST front test cases
+=====================================
 
 .. _installation:
 

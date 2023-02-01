@@ -14,4 +14,4 @@ Contents
 .. toctree::
 
    usage
-   case_kilpatrick
+   cases_kilpatrick
