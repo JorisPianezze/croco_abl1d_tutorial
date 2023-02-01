@@ -1,7 +1,11 @@
-Run 2d idealized SST front test cases
+Compile and run KILPATRICK test cases
 =====================================
 
 .. _installation:
+
+
+Warm-to-cold case
+*****************
 
 Installation
 ------------
@@ -34,3 +38,17 @@ In param.h, you need to change the MPI setup by :
 .. code-block:: fortran
 
    parameter (NP_XI=4,  NP_ETA=1,  NNODES=NP_XI*NP_ETA)
+
+Simulation
+----------
+
+Launch the simulation with mpirun (it takes less than 10 secondes) :
+
+.. code-block:: console
+   
+   mpirun -np 4 ./croco
+
+Results
+-------
+
+At the end of the simulation you should have the file croco_abl_his.nc. It contains instantanneous ABL1d variables.
