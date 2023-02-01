@@ -1,12 +1,12 @@
-Usage
-=====
+New features
+============
 
 .. _installation:
 
-Installation
+Get the code
 ------------
 
-To install CROCO, get the dev_2022_ABL1d branch from INRIA's gitlab server :
+To install CROCO with ABL1d developments, get the dev_2022_ABL1d branch from INRIA's gitlab server :
 
 .. code-block:: console
 
@@ -17,6 +17,9 @@ Code modifications
 ------------------
 
 All ABL1d developpments are made under the CPP key ABL1D.
+
+croco.in
+--------
 
 Additionnal parameters have been include in croco.in file :
 
@@ -42,8 +45,3 @@ Additionnal parameters have been include in croco.in file :
    abl_nudg_cof:    ltra_min, ltra_max, ldyn_min, ldyn_max  [seconds for all]
                    5400.     3600.     5400.    3600.
 
-
-Compilation
------------
-
-To compile CROCO with ABL1d, you need to adapt the cppdefs.h file.
