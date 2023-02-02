@@ -1,4 +1,4 @@
-Compile and run KILPATRICK test cases
+Run KILPATRICK test cases
 =====================================
 
 .. _installation:
