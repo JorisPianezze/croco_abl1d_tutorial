@@ -16,3 +16,4 @@ Contents
 
    new_features
    cases_kilpatrick
+   cases_benguela_lr

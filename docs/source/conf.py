@@ -1,9 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-project = 'CROCO_ABL1d_Tutorial'
+project   = 'CROCO_ABL1d_Tutorial'
 copyright = '2023, PIANEZZE Joris'
-author = 'Pianezze Joris'
+author    = 'PIANEZZE Joris'
 
 release = '0.1'
 version = '0.1.0'
