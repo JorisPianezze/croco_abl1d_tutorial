@@ -41,7 +41,7 @@ This repository contains the following directories :
 Compilation
 -------------------------------------------------
 
-Go to src/ directory, modify the :file:`Makefile` according to your configuration and compile the code by :
+Go to src/ directory, modify the :file:`Makefile` according to your configuration and compile the code :
 
 .. code-block:: console
 
@@ -98,14 +98,42 @@ Go to ktest/benguela_ifs_era5/2_convert_to_croco to run conversion scripts :
 * :file:`create_croco_blk_from_ifs_era5.py` is used to create 2d atmospheric forcing field for classical bulk parametrization.
 
 
-Compile CROCO
+Compilation and simulation for BULK_FLUX test case
 ********************************
 
+Modification in :file:`cppdefs.h` :
 
+.. code-block:: console
+   # define MPI
+   # define BULK_FLUX
+   # undef CLIMATOLOGY
 
-Simulation
+.. code-block:: console
+   ./jobcomp
+
+.. code-block:: console
+
+   mpirun -np 4 ./croco
+
+Compilation and simulation for ABL1d test case
 ********************************
+
+Modification in :file:`cppdefs.h` :
+
+.. code-block:: console
+   # define MPI
+   # define ABL1D
+   # undef CLIMATOLOGY
+
+.. code-block:: console
+   ./jobcomp
+
+.. code-block:: console
+
+   mpirun -np 4 ./croco
 
 
 Results
 ********************************
+
+
