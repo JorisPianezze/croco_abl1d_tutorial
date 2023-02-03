@@ -20,7 +20,7 @@ extensions = [
 
 bibtex_bibfiles      = ['references.bib']
 #bibtex_default_style = 'unsrt'
-bibtex_default_style = 'plain'
+bibtex_default_style = 'plainnat'
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
