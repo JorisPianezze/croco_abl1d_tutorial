@@ -10,7 +10,7 @@ Same version of the ABL1d model has been implemented in CROCO.
    This tutorial is under development.
 
 Contents
---------
+********
 
 .. toctree::
    :numbered:
@@ -18,5 +18,8 @@ Contents
    new_features
    cases_kilpatrick
    cases_benguela_lr
+
+References
+**********
 
 .. bibliography::
