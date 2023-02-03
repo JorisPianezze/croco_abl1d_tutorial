@@ -18,7 +18,8 @@ extensions = [
     'sphinxcontrib.bibtex',
 ]
 
-bibtex_bibfiles = ['references.bib']
+bibtex_bibfiles      = ['references.bib']
+bibtex_default_style = 'unsrt'
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
