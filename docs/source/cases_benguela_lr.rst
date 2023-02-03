@@ -1,3 +1,5 @@
+.. _section_benguela_lr:
+
 Run BENGUELA_LR test case
 =====================================
 
