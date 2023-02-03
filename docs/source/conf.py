@@ -18,8 +18,9 @@ extensions = [
     'sphinxcontrib.bibtex',
 ]
 
-bibtex_bibfiles      = ['references.bib']
-bibtex_default_style = 'unsrt'
+bibtex_bibfiles        = ['references.bib']
+bibtex_default_style   = 'unsrt'
+bibtex_reference_style = 'author_year'
 #bibtex_default_style = 'plainnat' 
 
 intersphinx_mapping = {

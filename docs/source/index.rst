@@ -7,7 +7,7 @@ The purpose of this tutorial is to present the different steps to set up :
 
 * a real case ABL1d - CROCO based on BENGUELA_LR ktest (Section :ref:`section_benguela_lr`).
   
-Description of the ABL1d model can be found in :cite:p:`lemarie_simplified_2021`. Same version of the ABL1d model has been implemented in CROCO.
+Description of the ABL1d model can be found in :cite:p:`lemarie_simplified_2021`. Same version of the ABL1d model described in this paper has been implemented in CROCO.
 
 .. note::
 
