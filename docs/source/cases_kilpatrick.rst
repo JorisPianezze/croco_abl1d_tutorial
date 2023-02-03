@@ -1,3 +1,5 @@
+.. _section_kilpatrick:
+
 Run KILPATRICK test cases
 =====================================
 
